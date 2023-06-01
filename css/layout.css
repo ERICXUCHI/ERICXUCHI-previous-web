@@ -130,14 +130,10 @@ header {
     background-color: #9C661F
 }
 
-#info {
-    word-break: keep-all;
-    
-}
 
 @media only screen and (max-width: 57.8125em), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2) {
 
-    header {
+    /* header {
         position: absolute
     }
 
@@ -170,7 +166,7 @@ header {
 
     .navbar nav:hover ul {
         display: block
-    }
+    } */
 
     body {
         margin-left: 5%;

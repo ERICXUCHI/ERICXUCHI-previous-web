@@ -127,9 +127,13 @@ header {
 }
 
 .navbar li a:hover {
-    background-color: #659e10
+    background-color: #9C661F
 }
 
+#info {
+    word-break: keep-all;
+    
+}
 
 @media only screen and (max-width: 57.8125em), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2) {
 

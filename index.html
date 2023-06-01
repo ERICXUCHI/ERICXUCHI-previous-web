@@ -6,6 +6,8 @@
     <title>XXX</title>
     <link rel="icon" href="images/profile.jpg">
     <link rel="stylesheet" href="css/layout.css">
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/respond.js"></script>
 </head>
 
 <body>
@@ -13,16 +15,44 @@
     <header>
         <div class="navbar">
         <nav>
-            <a href="https://yepangliu.github.io/#" id="menu-icon" onclick="myFunction()">☰ Menu</a>
+            <a href="https://ericxuchi.github.io/#" id="menu-icon" onclick="myFunction()">☰ Menu</a>
             <ul id="menu">
             <li><a href="#">Home</a></li>
             <li><a href="#News">News</a></li> 
             <li><a href="#Publications">Publications</a></li>
+            <li><a href="#Patents">Patents</a></li>
+            <li><a href="#Awards">Awards</a></li>
             </ul>
             </nav>
           </div>
         </header>
+<script>
+    function myFunction() {
+        var x = document.getElementById("menu");
+        if (x.style.display === "none") {
+        x.style.display = "block";
+        } else {
+        x.style.display = "none";
+        }
+    }
 
+    if($(window).width() <= 600) {
+        var last_known_scroll_position = 0;
+        var menu = document.getElementById("menu");
+        window.addEventListener('scroll', function(e) {
+        if (Math.abs(window.scrollY - last_known_scroll_position) > 20) {
+            if(menu.style.display = "block") {
+            menu.style.display = "none";
+            }
+        }
+        last_known_scroll_position = window.scrollY;
+        });
+    }
+
+    window.onorientationchange = function() { 
+        window.location.reload(); 
+    };
+</script>
 <div class="sidebar">
     <img id="img-me" src="images/profile.jpg" alt="me">
     <br><br>
@@ -122,7 +152,7 @@
 
 <hr>
 <p style="text-align: center; margin-top: 0; font-size: 10pt;">
-    Site maintained by <a href="github.com" style="color: brown; text-decoration: underline">xxx</a>, last updated: 2023-06-01</p>
+    <a href="github.com" style="color: brown; text-decoration: underline">xxx</a> @ 2023</p>
 
 </body>
 

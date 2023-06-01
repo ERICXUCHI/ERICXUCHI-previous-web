@@ -3,11 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <title>XXX</title>
-    <link rel="icon" href="images/profile.jpg">
+    <title>Chi Xu's Homepage</title>
+    <link rel="icon" href="images/ust.svg">
     <link rel="stylesheet" href="css/layout.css">
-    <script src="./js/jquery-1.12.4.min.js"></script>
-    <script src="./js/respond.js"></script>
 </head>
 
 <body>
@@ -22,43 +20,16 @@
             <li><a href="#Publications">Publications</a></li>
             <li><a href="#Patents">Patents</a></li>
             <li><a href="#Awards">Awards</a></li>
+            <li><a href="#Experiences">Experiences</a></li>
             </ul>
             </nav>
           </div>
         </header>
-<script>
-    function myFunction() {
-        var x = document.getElementById("menu");
-        if (x.style.display === "none") {
-        x.style.display = "block";
-        } else {
-        x.style.display = "none";
-        }
-    }
-
-    if($(window).width() <= 600) {
-        var last_known_scroll_position = 0;
-        var menu = document.getElementById("menu");
-        window.addEventListener('scroll', function(e) {
-        if (Math.abs(window.scrollY - last_known_scroll_position) > 20) {
-            if(menu.style.display = "block") {
-            menu.style.display = "none";
-            }
-        }
-        last_known_scroll_position = window.scrollY;
-        });
-    }
-
-    window.onorientationchange = function() { 
-        window.location.reload(); 
-    };
-</script>
 <div class="sidebar">
-    <img id="img-me" src="images/profile.jpg" alt="me">
+    <img id="img-me" src="images/photo.jpg" alt="me">
     <br><br>
-    <p id="p-name"><b>XXX</b></p>
-    <p>Pronouns: </p>
-    <p>Ph.D. Student</p>
+    <p id="p-name"><b>Chi Xu (徐驰)</b></p>
+    <p>Incoming Ph.D. Student</p>
     <p><a href="https://cse.hkust.edu.hk/" style="text-decoration: underline">Department of Computer Science and
         Engineering</a></p>
     <p><a href="https://hkust.edu.hk/" style="text-decoration: underline">The Hong Kong University of Science and Technology (HKUST)</a></p>
@@ -70,21 +41,21 @@
             <span>Curriculum Vitae</span>
         </a>
         <br>
-        <a href="mailto:@">
+        <a href="mailto:exc0000@163.com">
             <svg viewBox="0 0 24 24">
                 <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25a.85.85 0 1 1 .9-1.44L12 11l6.7-4.19a.85.85 0 1 1 .9 1.44z"></path>
             </svg>
             <span>Email</span>
         </a>
         <br>
-        <a href="https://twitter.com/xxx">
+        <a href="https://twitter.com/EricXuChi">
             <svg viewBox="0 0 448 512">
                 <path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5c0 86.7-66 186.6-186.6 186.6c-37.2 0-71.7-10.8-100.7-29.4c5.3.6 10.4.8 15.8.8c30.7 0 58.9-10.4 81.4-28c-28.8-.6-53-19.5-61.3-45.5c10.1 1.5 19.2 1.5 29.6-1.2c-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1c32.3 39.8 80.8 65.8 135.2 68.6c-9.3-44.5 24-80.6 64-80.6c18.9 0 35.9 7.9 47.9 20.7c14.8-2.8 29-8.3 41.6-15.8c-4.9 15.2-15.2 28-28.8 36.1c13.2-1.4 26-5.1 37.8-10.2c-8.9 13.1-20.1 24.7-32.9 34z"></path>
             </svg>
             <span>Twitter</span>
         </a>
         <br>
-        <a href="https://github.com/xxx">
+        <a href="https://github.com/ERICXUCHI">
             <svg viewBox="0 0 448 512">
                 <path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM277.3 415.7c-8.4 1.5-11.5-3.7-11.5-8c0-5.4.2-33 .2-55.3c0-15.6-5.2-25.5-11.3-30.7c37-4.1 76-9.2 76-73.1c0-18.2-6.5-27.3-17.1-39c1.7-4.3 7.4-22-1.7-45c-13.9-4.3-45.7 17.9-45.7 17.9c-13.2-3.7-27.5-5.6-41.6-5.6c-14.1 0-28.4 1.9-41.6 5.6c0 0-31.8-22.2-45.7-17.9c-9.1 22.9-3.5 40.6-1.7 45c-10.6 11.7-15.6 20.8-15.6 39c0 63.6 37.3 69 74.3 73.1c-4.8 4.3-9.1 11.7-10.6 22.3c-9.5 4.3-33.8 11.7-48.3-13.9c-9.1-15.8-25.5-17.1-25.5-17.1c-16.2-.2-1.1 10.2-1.1 10.2c10.8 5 18.4 24.2 18.4 24.2c9.7 29.7 56.1 19.7 56.1 19.7c0 13.9.2 36.5.2 40.6c0 4.3-3 9.5-11.5 8c-66-22.1-112.2-84.9-112.2-158.3c0-91.8 70.2-161.5 162-161.5S388 165.6 388 257.4c.1 73.4-44.7 136.3-110.7 158.3zm-98.1-61.1c-1.9.4-3.7-.4-3.9-1.7c-.2-1.5 1.1-2.8 3-3.2c1.9-.2 3.7.6 3.9 1.9c.3 1.3-1 2.6-3 3zm-9.5-.9c0 1.3-1.5 2.4-3.5 2.4c-2.2.2-3.7-.9-3.7-2.4c0-1.3 1.5-2.4 3.5-2.4c1.9-.2 3.7.9 3.7 2.4zm-13.7-1.1c-.4 1.3-2.4 1.9-4.1 1.3c-1.9-.4-3.2-1.9-2.8-3.2c.4-1.3 2.4-1.9 4.1-1.5c2 .6 3.3 2.1 2.8 3.4zm-12.3-5.4c-.9 1.1-2.8.9-4.3-.6c-1.5-1.3-1.9-3.2-.9-4.1c.9-1.1 2.8-.9 4.3.6c1.3 1.3 1.8 3.3.9 4.1zm-9.1-9.1c-.9.6-2.6 0-3.7-1.5s-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3c1.1 1.5 1.1 3.3 0 4.1zm-6.5-9.7c-.9.9-2.4.4-3.5-.6c-1.1-1.3-1.3-2.8-.4-3.5c.9-.9 2.4-.4 3.5.6c1.1 1.3 1.3 2.8.4 3.5zm-6.7-7.4c-.4.9-1.7 1.1-2.8.4c-1.3-.6-1.9-1.7-1.5-2.6c.4-.6 1.5-.9 2.8-.4c1.3.7 1.9 1.8 1.5 2.6z"></path>
             </svg>
@@ -101,6 +72,7 @@
 </div>
 
 <div class="main">
+    
     <p id="About" style="font-size: 24pt; margin-bottom: 0;"><b>About me</b></p>
     <p>
         Self Introduction.
@@ -113,7 +85,7 @@
     <div class="announcement">
         <p style="color: black">📢 some announcement</p>
     </div>
-
+    <p id="News" style="font-size: 1pt; margin-bottom: 0; color: white"><b>News</b></p>
     <p id="News" style="font-size: 24pt; margin-bottom: 0;"><b>News</b></p>
     <ul>
         <li>
@@ -130,29 +102,65 @@
             </p>
         </li>
     </ul>
-
+    <p id="Publications" style="font-size: 1pt; margin-bottom: 0; color: white"><b>Publications</b></p>
     <p id="Publications" style="font-size: 24pt; margin-bottom: 0;"><b>Publications</b></p>
     <br>
     <div class="publication_row">
         <div class="publication_column left">
-            <img src="images/cat.png" width="100%" height="100%" alt="">
-            <br><br><b>IMWUT 2023</b></div>
+            <img src="images/ConfFix.jpg" width="100%" height="100%" alt="">
+            <br><br><b>ISSTA 2023</b></div>
         <div class="publication_column right">
-            <a href="files/xxx.pdf">
-                <b>An Study of HKUST</b>
+            <a href="files/ConfFix_huang.pdf">
+                <b>ConfFix: Repairing Configuration Compatibility Issues in Android Apps</b>
             </a><br>
-            <b>XXX*</b>, XXX*<br>
-            Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2023.<br>
-            [<a href="files/xxx.pdf">Paper</a>]
-            [<a href="www.baidu.com">Link</a>]
+            Huaxun Huang, <b>Chi Xu</b>, Ming Wen, Yepang Liu, Shing-Chi Cheung<br>
+            In the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis, 2023, to appear.
+            <br>
+            [<a href="files/ConfFix_huang.pdf">Paper</a>]
+            <!-- [<a href="www.baidu.com">Link</a>] -->
         </div>
     </div>
+    <p id="Patents" style="font-size: 1pt; margin-bottom: 0; color: white""><b>Patents</b></p>
+    <p id="Patents" style="font-size: 24pt; margin-bottom: 0;"><b>Patents</b></p>
+    <ul>
+        <li><p><b>Chi Xu</b>, Yitong Wang, Sina Wang, Yepang Liu. Analysis of WebAssembly runtime vulnerability detection based on fuzzy testing. CN Patent Application: 2022105489273. 2022. Under substantive examination.</p></li>
+
+    </ul>
+
+    <p id="Awards" style="font-size: 1pt; margin-bottom: 0; color: white"><b>Awards</b></p>
+    <p id="Awards" style="font-size: 24pt; margin-bottom: 0;"><b>Awards</b></p>
+    <ul>
+        <li> National Scholarship (Top 8 in SUSTech) <div style="float: right"> Oct. 2022 </div></li>
+        <li> Grand Prize of the School Motto Scholarship (Top 4 in SUSTech) <div style="float: right"> Oct. 2022 </div></li>
+        <li> Honor of College Dean (Top 1 of ZhiRen College) <div style="float: right"> May. 2022 </div></li>
+        <li> Excellent Student Representative of the University (1%) <div style="float: right"> May. 2022 </div></li>
+        <li> Runner-up in the IEEE Software Testing Contest (1%) <div style="float: right"> May. 2022 </div></li>
+        <li> Champion of the National College Employment Test Competition (0.003%) <div style="float: right"> Apr. 2022 </div></li>
+        <li> Honorable Mention of Mathematical Contest in Modeling <div style="float: right"> Apr. 2022 </div></li>
+        <li> The Second Prize of the National Software Testing Contest for College Students <div style="float: right"> Nov. 2021 </div></li>
+        <li> The Second prize in Contemporary Undergraduate Mathematical Contest in Modeling <div style="float: right"> Sept. 2021 </div></li>
+        <li> Excellent Student Representative of College <div style="float: right"> May. 2020 </div></li>
+        <li> Outstanding Student Leaders <div style="float: right"> Apr. 2020 </div></li>
+    </ul>
+
+    <p id="Experiences" style="font-size: 1pt; margin-bottom: 0; color: white"><b>Experiences</b></p>
+    <p id="Experiences" style="font-size: 24pt; margin-bottom: 0;"><b>Experiences</b></p>
+    <ul>
+        <li> Teaching Assistant of CS302: Operating System, SUSTech <div style="float: right"> Feb. 2023 - June. 2023 </div></li>
+        <li> Teaching Assistant of CS304: Software Engineering, SUSTech <div style="float: right"> Feb. 2023 - June. 2023 </div></li>
+        <li> Teaching Assistant of CS309: Oriented Object and Algorithm Analysis, SUSTech <div style="float: right"> Sep. 2022 - Jan. 2023 </div></li>
+        <li> Teaching Assistant of CS209A: Computer System Design and Applications A, SUSTech <div style="float: right"> Sep. 2022 - Jan. 2023 </div></li>
+        <li> Teaching Assistant of CS303: Artificial Intelligence, SUSTech <div style="float: right"> Sep. 2022 - Jan. 2023 </div></li>
+        <li> Teaching Assistant of CS307: Principle of Database, SUSTech <div style="float: right"> Feb. 2022 - June. 2022 </div></li>
+        <li> Teaching Assistant of CS202: Computer Organization, SUSTech <div style="float: right"> Feb. 2022 - June. 2022 </div></li>
+        <li> Teaching Assistant of CS102A: Introduction to Java Programming, SUSTech <div style="float: right"> Feb. 2021 - Jun. 2021 </div></li>
+    </ul>
 
 </div>
 
 <hr>
 <p style="text-align: center; margin-top: 0; font-size: 10pt;">
-    <a href="github.com" style="color: brown; text-decoration: underline">xxx</a> @ 2023</p>
+    <a href="ERICXUCHI.github.io" style="color: brown; text-decoration: underline">Chi Xu</a> @ 2023</p>
 
 </body>
 
